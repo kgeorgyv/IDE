@@ -29,7 +29,7 @@ def score_game(random_predict) -> int:
         random_predict (_type_): _description_
 
     Returns:
-        int: среднее количесвто попыток
+        int: среднее количество попыток
     """
     count_ls = []
     np.random.seed(1) # фиксируем сид для воспроизведения
